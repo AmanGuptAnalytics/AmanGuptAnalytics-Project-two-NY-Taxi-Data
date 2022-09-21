@@ -1,0 +1,44 @@
+[2022-09-20 15:08:43,089] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_green_tripdata_external_table_task scheduled__2022-09-19T00:00:00+00:00 [queued]>
+[2022-09-20 15:08:43,107] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_green_tripdata_external_table_task scheduled__2022-09-19T00:00:00+00:00 [queued]>
+[2022-09-20 15:08:43,108] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-20 15:08:43,108] {taskinstance.py:1239} INFO - Starting attempt 2 of 3
+[2022-09-20 15:08:43,108] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-20 15:08:43,125] {taskinstance.py:1259} INFO - Executing <Task(BigQueryCreateExternalTableOperator): bq_green_tripdata_external_table_task> on 2022-09-19 00:00:00+00:00
+[2022-09-20 15:08:43,133] {standard_task_runner.py:52} INFO - Started process 551 to run task
+[2022-09-20 15:08:43,139] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'bq_green_tripdata_external_table_task', 'scheduled__2022-09-19T00:00:00+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_dag.py', '--cfg-path', '/tmp/tmpchl2lrcd', '--error-file', '/tmp/tmpd04jrc34']
+[2022-09-20 15:08:43,140] {standard_task_runner.py:77} INFO - Job 22: Subtask bq_green_tripdata_external_table_task
+[2022-09-20 15:08:43,219] {logging_mixin.py:109} INFO - Running <TaskInstance: gcs_2_bq_dag.bq_green_tripdata_external_table_task scheduled__2022-09-19T00:00:00+00:00 [running]> on host 0a2e8243e3d8
+[2022-09-20 15:08:43,291] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=bq_green_tripdata_external_table_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-19T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-19T00:00:00+00:00
+[2022-09-20 15:08:43,293] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-09-20 15:08:43,987] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=gcs_2_bq_dag, task_id=bq_green_tripdata_external_table_task, execution_date=20220919T000000, start_date=20220920T150843, end_date=20220920T150843
+[2022-09-20 15:08:44,035] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-20 15:08:44,085] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-09-21 00:49:47,413] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_green_tripdata_external_table_task scheduled__2022-09-19T00:00:00+00:00 [queued]>
+[2022-09-21 00:49:47,427] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.bq_green_tripdata_external_table_task scheduled__2022-09-19T00:00:00+00:00 [queued]>
+[2022-09-21 00:49:47,427] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-21 00:49:47,427] {taskinstance.py:1239} INFO - Starting attempt 2 of 3
+[2022-09-21 00:49:47,427] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-21 00:49:47,441] {taskinstance.py:1259} INFO - Executing <Task(BigQueryCreateExternalTableOperator): bq_green_tripdata_external_table_task> on 2022-09-19 00:00:00+00:00
+[2022-09-21 00:49:47,447] {standard_task_runner.py:52} INFO - Started process 25526 to run task
+[2022-09-21 00:49:47,454] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'bq_green_tripdata_external_table_task', 'scheduled__2022-09-19T00:00:00+00:00', '--job-id', '206', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_dag.py', '--cfg-path', '/tmp/tmpwvbiydee', '--error-file', '/tmp/tmpzjqdvxuq']
+[2022-09-21 00:49:47,455] {standard_task_runner.py:77} INFO - Job 206: Subtask bq_green_tripdata_external_table_task
+[2022-09-21 00:49:47,515] {logging_mixin.py:109} INFO - Running <TaskInstance: gcs_2_bq_dag.bq_green_tripdata_external_table_task scheduled__2022-09-19T00:00:00+00:00 [running]> on host 788dccad41b9
+[2022-09-21 00:49:47,576] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=bq_green_tripdata_external_table_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-19T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-19T00:00:00+00:00
+[2022-09-21 00:49:47,578] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-09-21 00:49:48,213] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=gcs_2_bq_dag, task_id=bq_green_tripdata_external_table_task, execution_date=20220919T000000, start_date=20220921T004947, end_date=20220921T004948
+[2022-09-21 00:49:48,268] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-21 00:49:48,307] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

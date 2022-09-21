@@ -1,0 +1,87 @@
+[2022-09-17 06:51:59,730] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_data_v2.rm_task scheduled__2019-03-02T06:00:00+00:00 [queued]>
+[2022-09-17 06:51:59,742] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_data_v2.rm_task scheduled__2019-03-02T06:00:00+00:00 [queued]>
+[2022-09-17 06:51:59,742] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-17 06:51:59,742] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-09-17 06:51:59,742] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-17 06:51:59,754] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): rm_task> on 2019-03-02 06:00:00+00:00
+[2022-09-17 06:51:59,761] {standard_task_runner.py:52} INFO - Started process 7359 to run task
+[2022-09-17 06:51:59,766] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'fhv_data_v2', 'rm_task', 'scheduled__2019-03-02T06:00:00+00:00', '--job-id', '85', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmp3ujc_0ju', '--error-file', '/tmp/tmpfzwtnhk0']
+[2022-09-17 06:51:59,767] {standard_task_runner.py:77} INFO - Job 85: Subtask rm_task
+[2022-09-17 06:51:59,836] {logging_mixin.py:109} INFO - Running <TaskInstance: fhv_data_v2.rm_task scheduled__2019-03-02T06:00:00+00:00 [running]> on host 10d063af5ba7
+[2022-09-17 06:51:59,876] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-17 06:51:59,901] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=fhv_data_v2
+AIRFLOW_CTX_TASK_ID=rm_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-03-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-03-02T06:00:00+00:00
+[2022-09-17 06:51:59,902] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-09-17 06:51:59,902] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'rm /opt/***/fhv_tripdata_2019-03.parquet']
+[2022-09-17 06:51:59,917] {subprocess.py:85} INFO - Output:
+[2022-09-17 06:51:59,925] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-09-17 06:51:59,959] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=fhv_data_v2, task_id=rm_task, execution_date=20190302T060000, start_date=20220917T065159, end_date=20220917T065159
+[2022-09-17 06:52:00,019] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-17 06:52:00,062] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-09-20 15:01:05,202] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_data_v2.rm_task scheduled__2019-03-02T06:00:00+00:00 [queued]>
+[2022-09-20 15:01:05,217] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_data_v2.rm_task scheduled__2019-03-02T06:00:00+00:00 [queued]>
+[2022-09-20 15:01:05,218] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-20 15:01:05,218] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-09-20 15:01:05,218] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-20 15:01:05,233] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): rm_task> on 2019-03-02 06:00:00+00:00
+[2022-09-20 15:01:05,240] {standard_task_runner.py:52} INFO - Started process 198 to run task
+[2022-09-20 15:01:05,244] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'fhv_data_v2', 'rm_task', 'scheduled__2019-03-02T06:00:00+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmptd33shyu', '--error-file', '/tmp/tmpvja_tif5']
+[2022-09-20 15:01:05,246] {standard_task_runner.py:77} INFO - Job 17: Subtask rm_task
+[2022-09-20 15:01:05,310] {logging_mixin.py:109} INFO - Running <TaskInstance: fhv_data_v2.rm_task scheduled__2019-03-02T06:00:00+00:00 [running]> on host 0a2e8243e3d8
+[2022-09-20 15:01:05,356] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-20 15:01:05,383] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=fhv_data_v2
+AIRFLOW_CTX_TASK_ID=rm_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-03-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-03-02T06:00:00+00:00
+[2022-09-20 15:01:05,384] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-09-20 15:01:05,385] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'rm /opt/***/fhv_tripdata_2019-03.parquet']
+[2022-09-20 15:01:05,399] {subprocess.py:85} INFO - Output:
+[2022-09-20 15:01:05,405] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-09-20 15:01:05,434] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=fhv_data_v2, task_id=rm_task, execution_date=20190302T060000, start_date=20220920T150105, end_date=20220920T150105
+[2022-09-20 15:01:05,457] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-20 15:01:05,555] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-09-20 15:31:15,857] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_data_v2.rm_task scheduled__2019-03-02T06:00:00+00:00 [queued]>
+[2022-09-20 15:31:15,875] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: fhv_data_v2.rm_task scheduled__2019-03-02T06:00:00+00:00 [queued]>
+[2022-09-20 15:31:15,875] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-20 15:31:15,875] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-09-20 15:31:15,876] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-20 15:31:15,891] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): rm_task> on 2019-03-02 06:00:00+00:00
+[2022-09-20 15:31:15,898] {standard_task_runner.py:52} INFO - Started process 144 to run task
+[2022-09-20 15:31:15,905] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'fhv_data_v2', 'rm_task', 'scheduled__2019-03-02T06:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmpwjh23opl', '--error-file', '/tmp/tmpuflj1ecy']
+[2022-09-20 15:31:15,907] {standard_task_runner.py:77} INFO - Job 7: Subtask rm_task
+[2022-09-20 15:31:15,985] {logging_mixin.py:109} INFO - Running <TaskInstance: fhv_data_v2.rm_task scheduled__2019-03-02T06:00:00+00:00 [running]> on host 788dccad41b9
+[2022-09-20 15:31:16,047] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-20 15:31:16,093] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=fhv_data_v2
+AIRFLOW_CTX_TASK_ID=rm_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-03-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-03-02T06:00:00+00:00
+[2022-09-20 15:31:16,096] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-09-20 15:31:16,098] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'rm /opt/***/fhv_tripdata_2019-03.parquet']
+[2022-09-20 15:31:16,118] {subprocess.py:85} INFO - Output:
+[2022-09-20 15:31:16,132] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-09-20 15:31:16,178] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=fhv_data_v2, task_id=rm_task, execution_date=20190302T060000, start_date=20220920T153115, end_date=20220920T153116
+[2022-09-20 15:31:16,239] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-20 15:31:16,279] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,142 @@
+[2022-09-20 14:59:40,381] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.move_yellow_tripdata_files_task scheduled__2022-09-19T00:00:00+00:00 [queued]>
+[2022-09-20 14:59:40,429] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.move_yellow_tripdata_files_task scheduled__2022-09-19T00:00:00+00:00 [queued]>
+[2022-09-20 14:59:40,430] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-20 14:59:40,430] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-09-20 14:59:40,430] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-20 14:59:40,462] {taskinstance.py:1259} INFO - Executing <Task(GCSToGCSOperator): move_yellow_tripdata_files_task> on 2022-09-19 00:00:00+00:00
+[2022-09-20 14:59:40,468] {standard_task_runner.py:52} INFO - Started process 95 to run task
+[2022-09-20 14:59:40,491] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'move_yellow_tripdata_files_task', 'scheduled__2022-09-19T00:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_dag.py', '--cfg-path', '/tmp/tmps_e_p606', '--error-file', '/tmp/tmpfa5gjgg1']
+[2022-09-20 14:59:40,492] {standard_task_runner.py:77} INFO - Job 5: Subtask move_yellow_tripdata_files_task
+[2022-09-20 14:59:40,652] {logging_mixin.py:109} INFO - Running <TaskInstance: gcs_2_bq_dag.move_yellow_tripdata_files_task scheduled__2022-09-19T00:00:00+00:00 [running]> on host 0a2e8243e3d8
+[2022-09-20 14:59:40,818] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=move_yellow_tripdata_files_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-19T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-19T00:00:00+00:00
+[2022-09-20 14:59:40,820] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-09-20 14:59:40,822] {gcs_to_gcs.py:346} INFO - Delimiter ignored because wildcard is in prefix
+[2022-09-20 14:59:41,167] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=gcs_2_bq_dag, task_id=move_yellow_tripdata_files_task, execution_date=20220919T000000, start_date=20220920T145940, end_date=20220920T145941
+[2022-09-20 14:59:41,243] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-20 14:59:41,372] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-09-20 15:46:01,616] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.move_yellow_tripdata_files_task scheduled__2022-09-19T00:00:00+00:00 [queued]>
+[2022-09-20 15:46:01,629] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: gcs_2_bq_dag.move_yellow_tripdata_files_task scheduled__2022-09-19T00:00:00+00:00 [queued]>
+[2022-09-20 15:46:01,629] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-20 15:46:01,629] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-09-20 15:46:01,630] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-20 15:46:01,650] {taskinstance.py:1259} INFO - Executing <Task(GCSToGCSOperator): move_yellow_tripdata_files_task> on 2022-09-19 00:00:00+00:00
+[2022-09-20 15:46:01,662] {standard_task_runner.py:52} INFO - Started process 1540 to run task
+[2022-09-20 15:46:01,675] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'gcs_2_bq_dag', 'move_yellow_tripdata_files_task', 'scheduled__2022-09-19T00:00:00+00:00', '--job-id', '188', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_dag.py', '--cfg-path', '/tmp/tmp5tg0g5a_', '--error-file', '/tmp/tmpu3ja0xty']
+[2022-09-20 15:46:01,677] {standard_task_runner.py:77} INFO - Job 188: Subtask move_yellow_tripdata_files_task
+[2022-09-20 15:46:01,778] {logging_mixin.py:109} INFO - Running <TaskInstance: gcs_2_bq_dag.move_yellow_tripdata_files_task scheduled__2022-09-19T00:00:00+00:00 [running]> on host 788dccad41b9
+[2022-09-20 15:46:01,869] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=gcs_2_bq_dag
+AIRFLOW_CTX_TASK_ID=move_yellow_tripdata_files_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-19T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-19T00:00:00+00:00
+[2022-09-20 15:46:01,871] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-09-20 15:46:01,871] {gcs_to_gcs.py:346} INFO - Delimiter ignored because wildcard is in prefix
+[2022-09-20 15:46:02,101] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2019/yellow_tripdata_2019-10.parquet to gs://tez-bucket/yellow/yellow_tripdata/2019/yellow_tripdata_2019-10.parquet
+[2022-09-20 15:46:02,168] {gcs.py:251} INFO - Total Bytes: 106293373 | Bytes Written: 106293373
+[2022-09-20 15:46:02,168] {gcs.py:264} INFO - Object raw/yellow_tripdata/2019/yellow_tripdata_2019-10.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2019/yellow_tripdata_2019-10.parquet in bucket tez-bucket
+[2022-09-20 15:46:02,198] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2019/yellow_tripdata_2019-10.parquet deleted.
+[2022-09-20 15:46:02,198] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2020/yellow_tripdata_2020-06.parquet to gs://tez-bucket/yellow/yellow_tripdata/2020/yellow_tripdata_2020-06.parquet
+[2022-09-20 15:46:02,243] {gcs.py:251} INFO - Total Bytes: 9505358 | Bytes Written: 9505358
+[2022-09-20 15:46:02,244] {gcs.py:264} INFO - Object raw/yellow_tripdata/2020/yellow_tripdata_2020-06.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2020/yellow_tripdata_2020-06.parquet in bucket tez-bucket
+[2022-09-20 15:46:02,273] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2020/yellow_tripdata_2020-06.parquet deleted.
+[2022-09-20 15:46:02,273] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2019/yellow_tripdata_2019-03.parquet to gs://tez-bucket/yellow/yellow_tripdata/2019/yellow_tripdata_2019-03.parquet
+[2022-09-20 15:46:02,314] {gcs.py:251} INFO - Total Bytes: 116017372 | Bytes Written: 116017372
+[2022-09-20 15:46:02,314] {gcs.py:264} INFO - Object raw/yellow_tripdata/2019/yellow_tripdata_2019-03.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2019/yellow_tripdata_2019-03.parquet in bucket tez-bucket
+[2022-09-20 15:46:02,342] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2019/yellow_tripdata_2019-03.parquet deleted.
+[2022-09-20 15:46:02,342] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2019/yellow_tripdata_2019-01.parquet to gs://tez-bucket/yellow/yellow_tripdata/2019/yellow_tripdata_2019-01.parquet
+[2022-09-20 15:46:02,386] {gcs.py:251} INFO - Total Bytes: 110439634 | Bytes Written: 110439634
+[2022-09-20 15:46:02,386] {gcs.py:264} INFO - Object raw/yellow_tripdata/2019/yellow_tripdata_2019-01.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2019/yellow_tripdata_2019-01.parquet in bucket tez-bucket
+[2022-09-20 15:46:02,421] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2019/yellow_tripdata_2019-01.parquet deleted.
+[2022-09-20 15:46:02,421] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2020/yellow_tripdata_2020-08.parquet to gs://tez-bucket/yellow/yellow_tripdata/2020/yellow_tripdata_2020-08.parquet
+[2022-09-20 15:46:02,460] {gcs.py:251} INFO - Total Bytes: 16601463 | Bytes Written: 16601463
+[2022-09-20 15:46:02,460] {gcs.py:264} INFO - Object raw/yellow_tripdata/2020/yellow_tripdata_2020-08.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2020/yellow_tripdata_2020-08.parquet in bucket tez-bucket
+[2022-09-20 15:46:02,491] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2020/yellow_tripdata_2020-08.parquet deleted.
+[2022-09-20 15:46:02,491] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2019/yellow_tripdata_2019-12.parquet to gs://tez-bucket/yellow/yellow_tripdata/2019/yellow_tripdata_2019-12.parquet
+[2022-09-20 15:46:02,535] {gcs.py:251} INFO - Total Bytes: 101044777 | Bytes Written: 101044777
+[2022-09-20 15:46:02,535] {gcs.py:264} INFO - Object raw/yellow_tripdata/2019/yellow_tripdata_2019-12.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2019/yellow_tripdata_2019-12.parquet in bucket tez-bucket
+[2022-09-20 15:46:02,562] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2019/yellow_tripdata_2019-12.parquet deleted.
+[2022-09-20 15:46:02,562] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2020/yellow_tripdata_2020-09.parquet to gs://tez-bucket/yellow/yellow_tripdata/2020/yellow_tripdata_2020-09.parquet
+[2022-09-20 15:46:02,598] {gcs.py:251} INFO - Total Bytes: 21381938 | Bytes Written: 21381938
+[2022-09-20 15:46:02,598] {gcs.py:264} INFO - Object raw/yellow_tripdata/2020/yellow_tripdata_2020-09.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2020/yellow_tripdata_2020-09.parquet in bucket tez-bucket
+[2022-09-20 15:46:02,637] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2020/yellow_tripdata_2020-09.parquet deleted.
+[2022-09-20 15:46:02,638] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2020/yellow_tripdata_2020-01.parquet to gs://tez-bucket/yellow/yellow_tripdata/2020/yellow_tripdata_2020-01.parquet
+[2022-09-20 15:46:02,677] {gcs.py:251} INFO - Total Bytes: 93562858 | Bytes Written: 93562858
+[2022-09-20 15:46:02,677] {gcs.py:264} INFO - Object raw/yellow_tripdata/2020/yellow_tripdata_2020-01.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2020/yellow_tripdata_2020-01.parquet in bucket tez-bucket
+[2022-09-20 15:46:02,705] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2020/yellow_tripdata_2020-01.parquet deleted.
+[2022-09-20 15:46:02,706] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2020/yellow_tripdata_2020-10.parquet to gs://tez-bucket/yellow/yellow_tripdata/2020/yellow_tripdata_2020-10.parquet
+[2022-09-20 15:46:02,752] {gcs.py:251} INFO - Total Bytes: 26306876 | Bytes Written: 26306876
+[2022-09-20 15:46:02,752] {gcs.py:264} INFO - Object raw/yellow_tripdata/2020/yellow_tripdata_2020-10.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2020/yellow_tripdata_2020-10.parquet in bucket tez-bucket
+[2022-09-20 15:46:02,778] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2020/yellow_tripdata_2020-10.parquet deleted.
+[2022-09-20 15:46:02,779] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2019/yellow_tripdata_2019-06.parquet to gs://tez-bucket/yellow/yellow_tripdata/2019/yellow_tripdata_2019-06.parquet
+[2022-09-20 15:46:02,812] {gcs.py:251} INFO - Total Bytes: 102903344 | Bytes Written: 102903344
+[2022-09-20 15:46:02,813] {gcs.py:264} INFO - Object raw/yellow_tripdata/2019/yellow_tripdata_2019-06.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2019/yellow_tripdata_2019-06.parquet in bucket tez-bucket
+[2022-09-20 15:46:02,838] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2019/yellow_tripdata_2019-06.parquet deleted.
+[2022-09-20 15:46:02,838] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2019/yellow_tripdata_2019-05.parquet to gs://tez-bucket/yellow/yellow_tripdata/2019/yellow_tripdata_2019-05.parquet
+[2022-09-20 15:46:02,880] {gcs.py:251} INFO - Total Bytes: 111478943 | Bytes Written: 111478943
+[2022-09-20 15:46:02,881] {gcs.py:264} INFO - Object raw/yellow_tripdata/2019/yellow_tripdata_2019-05.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2019/yellow_tripdata_2019-05.parquet in bucket tez-bucket
+[2022-09-20 15:46:02,910] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2019/yellow_tripdata_2019-05.parquet deleted.
+[2022-09-20 15:46:02,910] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2020/yellow_tripdata_2020-04.parquet to gs://tez-bucket/yellow/yellow_tripdata/2020/yellow_tripdata_2020-04.parquet
+[2022-09-20 15:46:02,949] {gcs.py:251} INFO - Total Bytes: 4442620 | Bytes Written: 4442620
+[2022-09-20 15:46:02,949] {gcs.py:264} INFO - Object raw/yellow_tripdata/2020/yellow_tripdata_2020-04.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2020/yellow_tripdata_2020-04.parquet in bucket tez-bucket
+[2022-09-20 15:46:02,978] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2020/yellow_tripdata_2020-04.parquet deleted.
+[2022-09-20 15:46:02,978] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2020/yellow_tripdata_2020-07.parquet to gs://tez-bucket/yellow/yellow_tripdata/2020/yellow_tripdata_2020-07.parquet
+[2022-09-20 15:46:03,020] {gcs.py:251} INFO - Total Bytes: 13387778 | Bytes Written: 13387778
+[2022-09-20 15:46:03,020] {gcs.py:264} INFO - Object raw/yellow_tripdata/2020/yellow_tripdata_2020-07.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2020/yellow_tripdata_2020-07.parquet in bucket tez-bucket
+[2022-09-20 15:46:03,045] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2020/yellow_tripdata_2020-07.parquet deleted.
+[2022-09-20 15:46:03,045] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2020/yellow_tripdata_2020-05.parquet to gs://tez-bucket/yellow/yellow_tripdata/2020/yellow_tripdata_2020-05.parquet
+[2022-09-20 15:46:03,082] {gcs.py:251} INFO - Total Bytes: 6229864 | Bytes Written: 6229864
+[2022-09-20 15:46:03,083] {gcs.py:264} INFO - Object raw/yellow_tripdata/2020/yellow_tripdata_2020-05.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2020/yellow_tripdata_2020-05.parquet in bucket tez-bucket
+[2022-09-20 15:46:03,109] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2020/yellow_tripdata_2020-05.parquet deleted.
+[2022-09-20 15:46:03,109] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2020/yellow_tripdata_2020-11.parquet to gs://tez-bucket/yellow/yellow_tripdata/2020/yellow_tripdata_2020-11.parquet
+[2022-09-20 15:46:03,158] {gcs.py:251} INFO - Total Bytes: 23583368 | Bytes Written: 23583368
+[2022-09-20 15:46:03,158] {gcs.py:264} INFO - Object raw/yellow_tripdata/2020/yellow_tripdata_2020-11.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2020/yellow_tripdata_2020-11.parquet in bucket tez-bucket
+[2022-09-20 15:46:03,188] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2020/yellow_tripdata_2020-11.parquet deleted.
+[2022-09-20 15:46:03,189] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2020/yellow_tripdata_2020-03.parquet to gs://tez-bucket/yellow/yellow_tripdata/2020/yellow_tripdata_2020-03.parquet
+[2022-09-20 15:46:03,220] {gcs.py:251} INFO - Total Bytes: 44442590 | Bytes Written: 44442590
+[2022-09-20 15:46:03,220] {gcs.py:264} INFO - Object raw/yellow_tripdata/2020/yellow_tripdata_2020-03.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2020/yellow_tripdata_2020-03.parquet in bucket tez-bucket
+[2022-09-20 15:46:03,252] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2020/yellow_tripdata_2020-03.parquet deleted.
+[2022-09-20 15:46:03,252] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2020/yellow_tripdata_2020-02.parquet to gs://tez-bucket/yellow/yellow_tripdata/2020/yellow_tripdata_2020-02.parquet
+[2022-09-20 15:46:03,288] {gcs.py:251} INFO - Total Bytes: 92134881 | Bytes Written: 92134881
+[2022-09-20 15:46:03,288] {gcs.py:264} INFO - Object raw/yellow_tripdata/2020/yellow_tripdata_2020-02.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2020/yellow_tripdata_2020-02.parquet in bucket tez-bucket
+[2022-09-20 15:46:03,315] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2020/yellow_tripdata_2020-02.parquet deleted.
+[2022-09-20 15:46:03,316] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2019/yellow_tripdata_2019-07.parquet to gs://tez-bucket/yellow/yellow_tripdata/2019/yellow_tripdata_2019-07.parquet
+[2022-09-20 15:46:03,348] {gcs.py:251} INFO - Total Bytes: 93877343 | Bytes Written: 93877343
+[2022-09-20 15:46:03,348] {gcs.py:264} INFO - Object raw/yellow_tripdata/2019/yellow_tripdata_2019-07.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2019/yellow_tripdata_2019-07.parquet in bucket tez-bucket
+[2022-09-20 15:46:03,372] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2019/yellow_tripdata_2019-07.parquet deleted.
+[2022-09-20 15:46:03,372] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2020/yellow_tripdata_2020-12.parquet to gs://tez-bucket/yellow/yellow_tripdata/2020/yellow_tripdata_2020-12.parquet
+[2022-09-20 15:46:03,408] {gcs.py:251} INFO - Total Bytes: 23020036 | Bytes Written: 23020036
+[2022-09-20 15:46:03,408] {gcs.py:264} INFO - Object raw/yellow_tripdata/2020/yellow_tripdata_2020-12.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2020/yellow_tripdata_2020-12.parquet in bucket tez-bucket
+[2022-09-20 15:46:03,436] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2020/yellow_tripdata_2020-12.parquet deleted.
+[2022-09-20 15:46:03,437] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2019/yellow_tripdata_2019-11.parquet to gs://tez-bucket/yellow/yellow_tripdata/2019/yellow_tripdata_2019-11.parquet
+[2022-09-20 15:46:03,473] {gcs.py:251} INFO - Total Bytes: 100872983 | Bytes Written: 100872983
+[2022-09-20 15:46:03,473] {gcs.py:264} INFO - Object raw/yellow_tripdata/2019/yellow_tripdata_2019-11.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2019/yellow_tripdata_2019-11.parquet in bucket tez-bucket
+[2022-09-20 15:46:03,501] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2019/yellow_tripdata_2019-11.parquet deleted.
+[2022-09-20 15:46:03,502] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2019/yellow_tripdata_2019-04.parquet to gs://tez-bucket/yellow/yellow_tripdata/2019/yellow_tripdata_2019-04.parquet
+[2022-09-20 15:46:03,536] {gcs.py:251} INFO - Total Bytes: 110139137 | Bytes Written: 110139137
+[2022-09-20 15:46:03,537] {gcs.py:264} INFO - Object raw/yellow_tripdata/2019/yellow_tripdata_2019-04.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2019/yellow_tripdata_2019-04.parquet in bucket tez-bucket
+[2022-09-20 15:46:03,562] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2019/yellow_tripdata_2019-04.parquet deleted.
+[2022-09-20 15:46:03,562] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2019/yellow_tripdata_2019-08.parquet to gs://tez-bucket/yellow/yellow_tripdata/2019/yellow_tripdata_2019-08.parquet
+[2022-09-20 15:46:03,599] {gcs.py:251} INFO - Total Bytes: 89999675 | Bytes Written: 89999675
+[2022-09-20 15:46:03,599] {gcs.py:264} INFO - Object raw/yellow_tripdata/2019/yellow_tripdata_2019-08.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2019/yellow_tripdata_2019-08.parquet in bucket tez-bucket
+[2022-09-20 15:46:03,624] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2019/yellow_tripdata_2019-08.parquet deleted.
+[2022-09-20 15:46:03,624] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2019/yellow_tripdata_2019-09.parquet to gs://tez-bucket/yellow/yellow_tripdata/2019/yellow_tripdata_2019-09.parquet
+[2022-09-20 15:46:03,655] {gcs.py:251} INFO - Total Bytes: 97110325 | Bytes Written: 97110325
+[2022-09-20 15:46:03,655] {gcs.py:264} INFO - Object raw/yellow_tripdata/2019/yellow_tripdata_2019-09.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2019/yellow_tripdata_2019-09.parquet in bucket tez-bucket
+[2022-09-20 15:46:03,688] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2019/yellow_tripdata_2019-09.parquet deleted.
+[2022-09-20 15:46:03,688] {gcs_to_gcs.py:431} INFO - Executing copy of gs://tez-bucket/raw/yellow_tripdata/2019/yellow_tripdata_2019-02.parquet to gs://tez-bucket/yellow/yellow_tripdata/2019/yellow_tripdata_2019-02.parquet
+[2022-09-20 15:46:03,723] {gcs.py:251} INFO - Total Bytes: 103356025 | Bytes Written: 103356025
+[2022-09-20 15:46:03,723] {gcs.py:264} INFO - Object raw/yellow_tripdata/2019/yellow_tripdata_2019-02.parquet in bucket tez-bucket rewritten to object yellow/yellow_tripdata/2019/yellow_tripdata_2019-02.parquet in bucket tez-bucket
+[2022-09-20 15:46:03,747] {gcs.py:645} INFO - Blob raw/yellow_tripdata/2019/yellow_tripdata_2019-02.parquet deleted.
+[2022-09-20 15:46:03,765] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=gcs_2_bq_dag, task_id=move_yellow_tripdata_files_task, execution_date=20220919T000000, start_date=20220920T154601, end_date=20220920T154603
+[2022-09-20 15:46:03,833] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-20 15:46:03,901] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

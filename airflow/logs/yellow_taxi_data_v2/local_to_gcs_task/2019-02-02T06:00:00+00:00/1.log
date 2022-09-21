@@ -1,0 +1,227 @@
+[2022-09-17 05:50:35,626] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_v2.local_to_gcs_task scheduled__2019-02-02T06:00:00+00:00 [queued]>
+[2022-09-17 05:50:35,642] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_v2.local_to_gcs_task scheduled__2019-02-02T06:00:00+00:00 [queued]>
+[2022-09-17 05:50:35,642] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-17 05:50:35,642] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-09-17 05:50:35,642] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-17 05:50:35,662] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2019-02-02 06:00:00+00:00
+[2022-09-17 05:50:35,668] {standard_task_runner.py:52} INFO - Started process 4346 to run task
+[2022-09-17 05:50:35,676] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_data_v2', 'local_to_gcs_task', 'scheduled__2019-02-02T06:00:00+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmph8r2n7na', '--error-file', '/tmp/tmp7_e_b5ba']
+[2022-09-17 05:50:35,677] {standard_task_runner.py:77} INFO - Job 10: Subtask local_to_gcs_task
+[2022-09-17 05:50:35,762] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_data_v2.local_to_gcs_task scheduled__2019-02-02T06:00:00+00:00 [running]> on host 10d063af5ba7
+[2022-09-17 05:50:35,825] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-17 05:50:35,851] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_data_v2
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-02-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-02-02T06:00:00+00:00
+[2022-09-17 05:50:39,072] {python.py:175} INFO - Done. Returned value was: None
+[2022-09-17 05:50:39,087] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_data_v2, task_id=local_to_gcs_task, execution_date=20190202T060000, start_date=20220917T055035, end_date=20220917T055039
+[2022-09-17 05:50:39,108] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-17 05:50:39,151] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-09-20 15:11:56,889] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_v2.local_to_gcs_task scheduled__2019-02-02T06:00:00+00:00 [queued]>
+[2022-09-20 15:11:56,908] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_v2.local_to_gcs_task scheduled__2019-02-02T06:00:00+00:00 [queued]>
+[2022-09-20 15:11:56,908] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-20 15:11:56,909] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-09-20 15:11:56,909] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-20 15:11:56,932] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2019-02-02 06:00:00+00:00
+[2022-09-20 15:11:56,941] {standard_task_runner.py:52} INFO - Started process 154 to run task
+[2022-09-20 15:11:56,947] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_data_v2', 'local_to_gcs_task', 'scheduled__2019-02-02T06:00:00+00:00', '--job-id', '41', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmpmgipqpg0', '--error-file', '/tmp/tmpzymgdaec']
+[2022-09-20 15:11:56,948] {standard_task_runner.py:77} INFO - Job 41: Subtask local_to_gcs_task
+[2022-09-20 15:11:57,023] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_data_v2.local_to_gcs_task scheduled__2019-02-02T06:00:00+00:00 [running]> on host 0a2e8243e3d8
+[2022-09-20 15:11:57,079] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-20 15:11:57,115] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_data_v2
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-02-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-02-02T06:00:00+00:00
+[2022-09-20 15:11:58,280] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2594, in upload_from_file
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2412, in _do_upload
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2237, in _do_resumable_upload
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2112, in _initiate_resumable_upload
+    timeout=timeout,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/upload.py", line 421, in initiate
+    retriable_request, self._get_status_code, self._retry_strategy
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/_request_helpers.py", line 147, in wait_and_retry
+    response = func()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/upload.py", line 416, in retriable_request
+    self._process_initiate_response(result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/_upload.py", line 503, in _process_initiate_response
+    callback=self._make_invalid,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/_helpers.py", line 104, in require_status_code
+    *status_codes
+google.resumable_media.common.InvalidResponse: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.CREATED: 201>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data_ingestion_gcs_dag.py", line 29, in upload_to_gcs
+    blob.upload_from_filename(local_file)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2735, in upload_from_filename
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2598, in upload_from_file
+    _raise_from_invalid_response(exc)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 4466, in _raise_from_invalid_response
+    raise exceptions.from_http_status(response.status_code, message, response=response)
+google.api_core.exceptions.NotFound: 404 POST https://storage.googleapis.com/upload/storage/v1/b/tez-bucket-new/o?uploadType=resumable: {
+  "error": {
+    "code": 404,
+    "message": "The specified bucket does not exist.",
+    "errors": [
+      {
+        "message": "The specified bucket does not exist.",
+        "domain": "global",
+        "reason": "notFound"
+      }
+    ]
+  }
+}
+: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.CREATED: 201>)
+[2022-09-20 15:11:58,298] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=yellow_taxi_data_v2, task_id=local_to_gcs_task, execution_date=20190202T060000, start_date=20220920T151156, end_date=20220920T151158
+[2022-09-20 15:11:58,314] {standard_task_runner.py:92} ERROR - Failed to execute job 41 for task local_to_gcs_task
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2594, in upload_from_file
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2412, in _do_upload
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2237, in _do_resumable_upload
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2112, in _initiate_resumable_upload
+    timeout=timeout,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/upload.py", line 421, in initiate
+    retriable_request, self._get_status_code, self._retry_strategy
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/_request_helpers.py", line 147, in wait_and_retry
+    response = func()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/upload.py", line 416, in retriable_request
+    self._process_initiate_response(result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/_upload.py", line 503, in _process_initiate_response
+    callback=self._make_invalid,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/_helpers.py", line 104, in require_status_code
+    *status_codes
+google.resumable_media.common.InvalidResponse: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.CREATED: 201>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/data_ingestion_gcs_dag.py", line 29, in upload_to_gcs
+    blob.upload_from_filename(local_file)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2735, in upload_from_filename
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2598, in upload_from_file
+    _raise_from_invalid_response(exc)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 4466, in _raise_from_invalid_response
+    raise exceptions.from_http_status(response.status_code, message, response=response)
+google.api_core.exceptions.NotFound: 404 POST https://storage.googleapis.com/upload/storage/v1/b/tez-bucket-new/o?uploadType=resumable: {
+  "error": {
+    "code": 404,
+    "message": "The specified bucket does not exist.",
+    "errors": [
+      {
+        "message": "The specified bucket does not exist.",
+        "domain": "global",
+        "reason": "notFound"
+      }
+    ]
+  }
+}
+: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.CREATED: 201>)
+[2022-09-20 15:11:58,325] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-09-20 15:11:58,365] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-09-20 15:31:50,115] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_v2.local_to_gcs_task scheduled__2019-02-02T06:00:00+00:00 [queued]>
+[2022-09-20 15:31:50,149] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_v2.local_to_gcs_task scheduled__2019-02-02T06:00:00+00:00 [queued]>
+[2022-09-20 15:31:50,150] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-20 15:31:50,150] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-09-20 15:31:50,150] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-20 15:31:50,187] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2019-02-02 06:00:00+00:00
+[2022-09-20 15:31:50,212] {standard_task_runner.py:52} INFO - Started process 293 to run task
+[2022-09-20 15:31:50,238] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_data_v2', 'local_to_gcs_task', 'scheduled__2019-02-02T06:00:00+00:00', '--job-id', '35', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmp4kk4idbg', '--error-file', '/tmp/tmpwp_v2quu']
+[2022-09-20 15:31:50,245] {standard_task_runner.py:77} INFO - Job 35: Subtask local_to_gcs_task
+[2022-09-20 15:31:50,468] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_data_v2.local_to_gcs_task scheduled__2019-02-02T06:00:00+00:00 [running]> on host 788dccad41b9
+[2022-09-20 15:31:50,652] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-20 15:31:50,733] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_data_v2
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-02-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-02-02T06:00:00+00:00
+[2022-09-20 15:31:52,332] {python.py:175} INFO - Done. Returned value was: None
+[2022-09-20 15:31:52,376] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_data_v2, task_id=local_to_gcs_task, execution_date=20190202T060000, start_date=20220920T153150, end_date=20220920T153152
+[2022-09-20 15:31:52,470] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-20 15:31:52,602] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-09-21 01:33:11,246] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_v2.local_to_gcs_task scheduled__2019-02-02T06:00:00+00:00 [queued]>
+[2022-09-21 01:33:11,263] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_data_v2.local_to_gcs_task scheduled__2019-02-02T06:00:00+00:00 [queued]>
+[2022-09-21 01:33:11,263] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-21 01:33:11,263] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-09-21 01:33:11,264] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-21 01:33:11,282] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2019-02-02 06:00:00+00:00
+[2022-09-21 01:33:11,289] {standard_task_runner.py:52} INFO - Started process 27545 to run task
+[2022-09-21 01:33:11,298] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_data_v2', 'local_to_gcs_task', 'scheduled__2019-02-02T06:00:00+00:00', '--job-id', '230', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmp76inn8g4', '--error-file', '/tmp/tmpyvcxlw11']
+[2022-09-21 01:33:11,299] {standard_task_runner.py:77} INFO - Job 230: Subtask local_to_gcs_task
+[2022-09-21 01:33:11,376] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_data_v2.local_to_gcs_task scheduled__2019-02-02T06:00:00+00:00 [running]> on host 788dccad41b9
+[2022-09-21 01:33:11,427] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-21 01:33:11,454] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_data_v2
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-02-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-02-02T06:00:00+00:00
+[2022-09-21 01:33:12,453] {python.py:175} INFO - Done. Returned value was: None
+[2022-09-21 01:33:12,474] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_data_v2, task_id=local_to_gcs_task, execution_date=20190202T060000, start_date=20220921T013311, end_date=20220921T013312
+[2022-09-21 01:33:12,512] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-21 01:33:12,558] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

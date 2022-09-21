@@ -1,0 +1,518 @@
+[2022-09-19 00:42:10,350] {processor.py:163} INFO - Started process (PID=9455) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:42:10,352] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:42:10,352] {logging_mixin.py:109} INFO - [2022-09-19 00:42:10,352] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:42:10,592] {logging_mixin.py:109} INFO - [2022-09-19 00:42:10,590] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:42:10,613] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:42:10,624] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.278 seconds
+[2022-09-19 00:42:40,735] {processor.py:163} INFO - Started process (PID=9484) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:42:40,737] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:42:40,738] {logging_mixin.py:109} INFO - [2022-09-19 00:42:40,737] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:42:40,983] {logging_mixin.py:109} INFO - [2022-09-19 00:42:40,982] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:42:41,001] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:42:41,010] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.280 seconds
+[2022-09-19 00:43:11,111] {processor.py:163} INFO - Started process (PID=9519) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:43:11,113] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:43:11,114] {logging_mixin.py:109} INFO - [2022-09-19 00:43:11,114] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:43:11,450] {logging_mixin.py:109} INFO - [2022-09-19 00:43:11,449] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:43:11,472] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:43:11,486] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.380 seconds
+[2022-09-19 00:43:41,581] {processor.py:163} INFO - Started process (PID=9551) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:43:41,582] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:43:41,583] {logging_mixin.py:109} INFO - [2022-09-19 00:43:41,583] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:43:41,863] {logging_mixin.py:109} INFO - [2022-09-19 00:43:41,862] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:43:41,881] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:43:41,892] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.315 seconds
+[2022-09-19 00:44:11,984] {processor.py:163} INFO - Started process (PID=9580) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:44:11,986] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:44:11,987] {logging_mixin.py:109} INFO - [2022-09-19 00:44:11,987] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:44:12,230] {logging_mixin.py:109} INFO - [2022-09-19 00:44:12,229] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:44:12,246] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:44:12,255] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.276 seconds
+[2022-09-19 00:44:42,360] {processor.py:163} INFO - Started process (PID=9620) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:44:42,363] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:44:42,364] {logging_mixin.py:109} INFO - [2022-09-19 00:44:42,363] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:44:42,635] {logging_mixin.py:109} INFO - [2022-09-19 00:44:42,634] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:44:42,652] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:44:42,661] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.306 seconds
+[2022-09-19 00:45:13,474] {processor.py:163} INFO - Started process (PID=9650) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:45:13,478] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:45:13,479] {logging_mixin.py:109} INFO - [2022-09-19 00:45:13,478] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:45:13,720] {logging_mixin.py:109} INFO - [2022-09-19 00:45:13,719] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:45:13,737] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:45:13,746] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.277 seconds
+[2022-09-19 00:45:43,839] {processor.py:163} INFO - Started process (PID=9689) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:45:43,842] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:45:43,843] {logging_mixin.py:109} INFO - [2022-09-19 00:45:43,843] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:45:44,094] {logging_mixin.py:109} INFO - [2022-09-19 00:45:44,092] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:45:44,110] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:45:44,119] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.285 seconds
+[2022-09-19 00:46:14,220] {processor.py:163} INFO - Started process (PID=9718) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:46:14,222] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:46:14,223] {logging_mixin.py:109} INFO - [2022-09-19 00:46:14,223] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:46:14,470] {logging_mixin.py:109} INFO - [2022-09-19 00:46:14,469] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:46:14,513] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:46:14,523] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.308 seconds
+[2022-09-19 00:46:44,617] {processor.py:163} INFO - Started process (PID=9747) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:46:44,619] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:46:44,620] {logging_mixin.py:109} INFO - [2022-09-19 00:46:44,620] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:46:44,857] {logging_mixin.py:109} INFO - [2022-09-19 00:46:44,856] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:46:44,873] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:46:44,882] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.269 seconds
+[2022-09-19 00:47:14,980] {processor.py:163} INFO - Started process (PID=9785) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:47:14,982] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:47:14,983] {logging_mixin.py:109} INFO - [2022-09-19 00:47:14,983] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:47:15,237] {logging_mixin.py:109} INFO - [2022-09-19 00:47:15,236] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:47:15,254] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:47:15,263] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.289 seconds
+[2022-09-19 00:47:45,354] {processor.py:163} INFO - Started process (PID=9814) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:47:45,356] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:47:45,357] {logging_mixin.py:109} INFO - [2022-09-19 00:47:45,357] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:47:45,626] {logging_mixin.py:109} INFO - [2022-09-19 00:47:45,625] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:47:45,643] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:47:45,651] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.302 seconds
+[2022-09-19 00:48:15,741] {processor.py:163} INFO - Started process (PID=9854) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:48:15,742] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:48:15,743] {logging_mixin.py:109} INFO - [2022-09-19 00:48:15,743] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:48:15,987] {logging_mixin.py:109} INFO - [2022-09-19 00:48:15,986] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:48:16,004] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:48:16,013] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.277 seconds
+[2022-09-19 00:48:46,100] {processor.py:163} INFO - Started process (PID=9884) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:48:46,102] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:48:46,103] {logging_mixin.py:109} INFO - [2022-09-19 00:48:46,103] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:48:46,343] {logging_mixin.py:109} INFO - [2022-09-19 00:48:46,342] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:48:46,360] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:48:46,369] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.273 seconds
+[2022-09-19 00:49:17,241] {processor.py:163} INFO - Started process (PID=9922) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:49:17,245] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:49:17,248] {logging_mixin.py:109} INFO - [2022-09-19 00:49:17,247] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:49:17,666] {logging_mixin.py:109} INFO - [2022-09-19 00:49:17,663] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:49:17,703] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:49:17,717] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.493 seconds
+[2022-09-19 00:49:47,830] {processor.py:163} INFO - Started process (PID=9951) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:49:47,833] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:49:47,834] {logging_mixin.py:109} INFO - [2022-09-19 00:49:47,834] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:49:48,117] {logging_mixin.py:109} INFO - [2022-09-19 00:49:48,116] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:49:48,134] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:49:48,143] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.317 seconds
+[2022-09-19 00:50:18,924] {processor.py:163} INFO - Started process (PID=9980) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:50:18,925] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:50:18,926] {logging_mixin.py:109} INFO - [2022-09-19 00:50:18,926] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:50:19,188] {logging_mixin.py:109} INFO - [2022-09-19 00:50:19,187] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:50:19,210] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:50:19,221] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.302 seconds
+[2022-09-19 00:50:49,291] {processor.py:163} INFO - Started process (PID=10021) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:50:49,293] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:50:49,294] {logging_mixin.py:109} INFO - [2022-09-19 00:50:49,294] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:50:49,573] {logging_mixin.py:109} INFO - [2022-09-19 00:50:49,572] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:50:49,589] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:50:49,598] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.311 seconds
+[2022-09-19 00:51:19,692] {processor.py:163} INFO - Started process (PID=10050) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:51:19,693] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:51:19,694] {logging_mixin.py:109} INFO - [2022-09-19 00:51:19,694] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:51:19,944] {logging_mixin.py:109} INFO - [2022-09-19 00:51:19,942] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:51:19,963] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:51:19,973] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.285 seconds
+[2022-09-19 00:51:50,060] {processor.py:163} INFO - Started process (PID=10089) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:51:50,063] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:51:50,063] {logging_mixin.py:109} INFO - [2022-09-19 00:51:50,063] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:51:50,386] {logging_mixin.py:109} INFO - [2022-09-19 00:51:50,385] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:51:50,404] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:51:50,413] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.357 seconds
+[2022-09-19 00:52:21,180] {processor.py:163} INFO - Started process (PID=10118) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:52:21,181] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:52:21,182] {logging_mixin.py:109} INFO - [2022-09-19 00:52:21,182] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:52:21,445] {logging_mixin.py:109} INFO - [2022-09-19 00:52:21,444] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:52:21,462] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:52:21,471] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.297 seconds
+[2022-09-19 00:52:51,559] {processor.py:163} INFO - Started process (PID=10155) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:52:51,561] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:52:51,562] {logging_mixin.py:109} INFO - [2022-09-19 00:52:51,562] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:52:51,880] {logging_mixin.py:109} INFO - [2022-09-19 00:52:51,878] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:52:51,898] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:52:51,907] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.354 seconds
+[2022-09-19 00:53:22,000] {processor.py:163} INFO - Started process (PID=10185) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:53:22,002] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:53:22,003] {logging_mixin.py:109} INFO - [2022-09-19 00:53:22,003] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:53:22,259] {logging_mixin.py:109} INFO - [2022-09-19 00:53:22,258] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:53:22,279] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:53:22,293] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.297 seconds
+[2022-09-19 00:53:52,368] {processor.py:163} INFO - Started process (PID=10214) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:53:52,370] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:53:52,371] {logging_mixin.py:109} INFO - [2022-09-19 00:53:52,371] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:53:52,618] {logging_mixin.py:109} INFO - [2022-09-19 00:53:52,617] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:53:52,638] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:53:52,648] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.284 seconds
+[2022-09-19 00:54:22,731] {processor.py:163} INFO - Started process (PID=10253) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:54:22,732] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:54:22,733] {logging_mixin.py:109} INFO - [2022-09-19 00:54:22,733] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:54:23,015] {logging_mixin.py:109} INFO - [2022-09-19 00:54:23,014] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:54:23,035] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:54:23,047] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.320 seconds
+[2022-09-19 00:54:53,123] {processor.py:163} INFO - Started process (PID=10282) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:54:53,125] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:54:53,126] {logging_mixin.py:109} INFO - [2022-09-19 00:54:53,126] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:54:53,425] {logging_mixin.py:109} INFO - [2022-09-19 00:54:53,423] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:54:53,442] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:54:53,452] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.334 seconds
+[2022-09-19 00:55:23,525] {processor.py:163} INFO - Started process (PID=10321) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:55:23,528] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:55:23,529] {logging_mixin.py:109} INFO - [2022-09-19 00:55:23,529] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:55:23,814] {logging_mixin.py:109} INFO - [2022-09-19 00:55:23,813] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:55:23,832] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:55:23,841] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.321 seconds
+[2022-09-19 00:55:53,917] {processor.py:163} INFO - Started process (PID=10350) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:55:53,918] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:55:53,919] {logging_mixin.py:109} INFO - [2022-09-19 00:55:53,919] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:55:54,175] {logging_mixin.py:109} INFO - [2022-09-19 00:55:54,174] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:55:54,192] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:55:54,202] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.290 seconds
+[2022-09-19 00:56:24,279] {processor.py:163} INFO - Started process (PID=10378) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:56:24,281] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:56:24,282] {logging_mixin.py:109} INFO - [2022-09-19 00:56:24,282] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:56:24,581] {logging_mixin.py:109} INFO - [2022-09-19 00:56:24,579] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:56:24,602] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:56:24,613] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.340 seconds
+[2022-09-19 00:56:54,698] {processor.py:163} INFO - Started process (PID=10414) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:56:54,700] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:56:54,701] {logging_mixin.py:109} INFO - [2022-09-19 00:56:54,701] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:56:54,995] {logging_mixin.py:109} INFO - [2022-09-19 00:56:54,994] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:56:55,016] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:56:55,026] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.332 seconds
+[2022-09-19 00:57:25,806] {processor.py:163} INFO - Started process (PID=10442) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:57:25,808] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:57:25,809] {logging_mixin.py:109} INFO - [2022-09-19 00:57:25,809] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:57:26,064] {logging_mixin.py:109} INFO - [2022-09-19 00:57:26,063] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:57:26,081] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:57:26,090] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.288 seconds
+[2022-09-19 00:57:56,168] {processor.py:163} INFO - Started process (PID=10481) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:57:56,170] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:57:56,170] {logging_mixin.py:109} INFO - [2022-09-19 00:57:56,170] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:57:56,511] {logging_mixin.py:109} INFO - [2022-09-19 00:57:56,509] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:57:56,533] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:57:56,544] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.381 seconds
+[2022-09-19 00:58:26,625] {processor.py:163} INFO - Started process (PID=10511) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:58:26,627] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:58:26,628] {logging_mixin.py:109} INFO - [2022-09-19 00:58:26,627] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:58:26,869] {logging_mixin.py:109} INFO - [2022-09-19 00:58:26,868] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:58:26,887] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:58:26,898] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.278 seconds
+[2022-09-19 00:58:56,975] {processor.py:163} INFO - Started process (PID=10539) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:58:56,977] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:58:56,978] {logging_mixin.py:109} INFO - [2022-09-19 00:58:56,977] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:58:57,257] {logging_mixin.py:109} INFO - [2022-09-19 00:58:57,255] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:58:57,304] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:58:57,316] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.345 seconds
+[2022-09-19 00:59:27,395] {processor.py:163} INFO - Started process (PID=10578) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:59:27,397] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:59:27,398] {logging_mixin.py:109} INFO - [2022-09-19 00:59:27,398] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:59:27,688] {logging_mixin.py:109} INFO - [2022-09-19 00:59:27,687] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:59:27,709] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:59:27,718] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.329 seconds
+[2022-09-19 00:59:57,811] {processor.py:163} INFO - Started process (PID=10606) to work on /opt/airflow/dags/solution.py
+[2022-09-19 00:59:57,813] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 00:59:57,813] {logging_mixin.py:109} INFO - [2022-09-19 00:59:57,813] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 00:59:58,107] {logging_mixin.py:109} INFO - [2022-09-19 00:59:58,106] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 00:59:58,124] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 00:59:58,133] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.326 seconds
+[2022-09-19 01:00:28,231] {processor.py:163} INFO - Started process (PID=10644) to work on /opt/airflow/dags/solution.py
+[2022-09-19 01:00:28,233] {processor.py:642} INFO - Processing file /opt/airflow/dags/solution.py for tasks to queue
+[2022-09-19 01:00:28,234] {logging_mixin.py:109} INFO - [2022-09-19 01:00:28,234] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/solution.py
+[2022-09-19 01:00:28,572] {logging_mixin.py:109} INFO - [2022-09-19 01:00:28,571] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/solution.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/solution.py", line 96, in <module>
+    download_parquetize_upload_dag(
+NameError: name 'download_parquetize_upload_dag' is not defined
+[2022-09-19 01:00:28,590] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/solution.py
+[2022-09-19 01:00:28,601] {processor.py:171} INFO - Processing /opt/airflow/dags/solution.py took 0.376 seconds

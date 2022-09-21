@@ -1,0 +1,87 @@
+[2022-09-17 07:14:40,277] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_data_v2.rm_task scheduled__2020-02-02T06:00:00+00:00 [queued]>
+[2022-09-17 07:14:40,288] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_data_v2.rm_task scheduled__2020-02-02T06:00:00+00:00 [queued]>
+[2022-09-17 07:14:40,288] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-17 07:14:40,288] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-09-17 07:14:40,288] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-17 07:14:40,301] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): rm_task> on 2020-02-02 06:00:00+00:00
+[2022-09-17 07:14:40,308] {standard_task_runner.py:52} INFO - Started process 488 to run task
+[2022-09-17 07:14:40,314] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'green_taxi_data_v2', 'rm_task', 'scheduled__2020-02-02T06:00:00+00:00', '--job-id', '161', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmpqpw2j30y', '--error-file', '/tmp/tmpv20xyzf6']
+[2022-09-17 07:14:40,315] {standard_task_runner.py:77} INFO - Job 161: Subtask rm_task
+[2022-09-17 07:14:40,391] {logging_mixin.py:109} INFO - Running <TaskInstance: green_taxi_data_v2.rm_task scheduled__2020-02-02T06:00:00+00:00 [running]> on host ea53df3427ed
+[2022-09-17 07:14:40,442] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-17 07:14:40,467] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=green_taxi_data_v2
+AIRFLOW_CTX_TASK_ID=rm_task
+AIRFLOW_CTX_EXECUTION_DATE=2020-02-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-02-02T06:00:00+00:00
+[2022-09-17 07:14:40,469] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-09-17 07:14:40,469] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'rm /opt/***/green_tripdata_2020-02.parquet']
+[2022-09-17 07:14:40,484] {subprocess.py:85} INFO - Output:
+[2022-09-17 07:14:40,493] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-09-17 07:14:40,531] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=green_taxi_data_v2, task_id=rm_task, execution_date=20200202T060000, start_date=20220917T071440, end_date=20220917T071440
+[2022-09-17 07:14:40,566] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-17 07:14:40,607] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-09-20 15:34:03,945] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_data_v2.rm_task scheduled__2020-02-02T06:00:00+00:00 [queued]>
+[2022-09-20 15:34:03,983] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_data_v2.rm_task scheduled__2020-02-02T06:00:00+00:00 [queued]>
+[2022-09-20 15:34:03,983] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-20 15:34:03,984] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-09-20 15:34:03,984] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-20 15:34:04,060] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): rm_task> on 2020-02-02 06:00:00+00:00
+[2022-09-20 15:34:04,085] {standard_task_runner.py:52} INFO - Started process 752 to run task
+[2022-09-20 15:34:04,102] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'green_taxi_data_v2', 'rm_task', 'scheduled__2020-02-02T06:00:00+00:00', '--job-id', '122', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmpjiemnwud', '--error-file', '/tmp/tmpmxxa0bey']
+[2022-09-20 15:34:04,109] {standard_task_runner.py:77} INFO - Job 122: Subtask rm_task
+[2022-09-20 15:34:04,283] {logging_mixin.py:109} INFO - Running <TaskInstance: green_taxi_data_v2.rm_task scheduled__2020-02-02T06:00:00+00:00 [running]> on host 788dccad41b9
+[2022-09-20 15:34:04,445] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-20 15:34:04,494] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=green_taxi_data_v2
+AIRFLOW_CTX_TASK_ID=rm_task
+AIRFLOW_CTX_EXECUTION_DATE=2020-02-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-02-02T06:00:00+00:00
+[2022-09-20 15:34:04,495] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-09-20 15:34:04,496] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'rm /opt/***/green_tripdata_2020-02.parquet']
+[2022-09-20 15:34:04,563] {subprocess.py:85} INFO - Output:
+[2022-09-20 15:34:04,571] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-09-20 15:34:04,628] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=green_taxi_data_v2, task_id=rm_task, execution_date=20200202T060000, start_date=20220920T153403, end_date=20220920T153404
+[2022-09-20 15:34:04,692] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-20 15:34:04,742] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-09-21 01:35:46,287] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_data_v2.rm_task scheduled__2020-02-02T06:00:00+00:00 [queued]>
+[2022-09-21 01:35:46,304] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: green_taxi_data_v2.rm_task scheduled__2020-02-02T06:00:00+00:00 [queued]>
+[2022-09-21 01:35:46,305] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-21 01:35:46,305] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-09-21 01:35:46,305] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-21 01:35:46,321] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): rm_task> on 2020-02-02 06:00:00+00:00
+[2022-09-21 01:35:46,331] {standard_task_runner.py:52} INFO - Started process 28021 to run task
+[2022-09-21 01:35:46,339] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'green_taxi_data_v2', 'rm_task', 'scheduled__2020-02-02T06:00:00+00:00', '--job-id', '319', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmp34q8lp2d', '--error-file', '/tmp/tmpd0may1eg']
+[2022-09-21 01:35:46,341] {standard_task_runner.py:77} INFO - Job 319: Subtask rm_task
+[2022-09-21 01:35:46,425] {logging_mixin.py:109} INFO - Running <TaskInstance: green_taxi_data_v2.rm_task scheduled__2020-02-02T06:00:00+00:00 [running]> on host 788dccad41b9
+[2022-09-21 01:35:46,509] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-09-21 01:35:46,544] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=green_taxi_data_v2
+AIRFLOW_CTX_TASK_ID=rm_task
+AIRFLOW_CTX_EXECUTION_DATE=2020-02-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-02-02T06:00:00+00:00
+[2022-09-21 01:35:46,546] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-09-21 01:35:46,547] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'rm /opt/***/green_tripdata_2020-02.parquet']
+[2022-09-21 01:35:46,571] {subprocess.py:85} INFO - Output:
+[2022-09-21 01:35:46,592] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-09-21 01:35:46,640] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=green_taxi_data_v2, task_id=rm_task, execution_date=20200202T060000, start_date=20220921T013546, end_date=20220921T013546
+[2022-09-21 01:35:46,681] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-21 01:35:46,724] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
